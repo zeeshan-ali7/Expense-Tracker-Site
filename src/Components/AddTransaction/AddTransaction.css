@@ -1,0 +1,34 @@
+.add-transaction-box h3 {
+    font-weight: 600;
+    font-size: 1em;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.add-tr-text {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+    font-weight: 600;
+}
+
+.add-transaction-box input {
+    margin: 0px 0px;
+    padding: 10px 65px;
+    border-radius: 4px;
+    border: 1px solid #bdb8b8;
+}
+
+.add-button button {
+    width: 300px;
+    font-size: 1em;
+    height: 35px;
+    font-weight: 600;
+    color: white;
+    background: #b0c4de;
+    border: none;
+    margin: 5px 0px 0px 0px;
+    border-radius: 4px;
+}

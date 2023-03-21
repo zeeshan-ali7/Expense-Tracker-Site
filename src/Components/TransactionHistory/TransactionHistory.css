@@ -1,0 +1,122 @@
+.t-h-text {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.t-h-text h2 {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.hr-line {
+    height: 0;
+}
+
+.transaction-list ul li {
+    margin: 10px 0px;
+    padding: 10px 0px;
+    box-shadow: 1px 1px 2px 0px gray;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.transaction-list ul {
+    list-style-type: none;
+}
+
+
+
+.expense-delete-btn {
+    position: relative;
+    right: 21px;
+    background: none;
+    border: none;
+    top: 2px;
+    display: none;
+}
+
+.expense-delete-btn img {
+    width: 20px;
+}
+
+
+.income-delete-btn {
+    position: relative;
+    right: 21px;
+    background: none;
+    border: none;
+    top: 2px;
+    display: none;
+}
+
+.income-delete-btn img {
+    width: 20px;
+}
+
+ul .income-list {
+    border-right: 5px solid #b6960a;
+
+}
+
+.transaction-list ul .income-list:hover {
+    background-color: #b6960a;
+    cursor: pointer;
+}
+
+.transaction-list ul .expense-list {
+    border-right: 5px solid #2da3ad;
+
+}
+
+.transaction-list ul .expense-list:hover {
+    cursor: pointer;
+    background-color: #2da3ad;
+
+}
+
+.transaction-list ul .expense-list:hover .expense-delete-btn {
+    display: block;
+    cursor: pointer;
+
+}
+
+.transaction-list ul .income-list:hover .income-delete-btn {
+    display: block;
+    cursor: pointer;
+
+}
+
+
+
+.expense-edit-btn{
+    position: relative;
+    left: 26px;
+    top: 4px;
+    background: none;
+    border: none;
+    display: none;
+}
+.expense-edit-btn img{
+    width: 20px;
+}
+.transaction-list ul .expense-list:hover .expense-edit-btn{
+    display: block;
+}
+
+.income-edit-btn{
+    position: relative;
+    left: 26px;
+    top: 4px;
+    background: none;
+    border: none;
+    display: none;
+}
+.income-edit-btn img{
+    width: 20px;
+}
+.transaction-list ul .income-list:hover .income-edit-btn{
+    display: block;
+}

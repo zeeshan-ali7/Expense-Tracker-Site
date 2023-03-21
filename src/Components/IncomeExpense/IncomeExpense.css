@@ -1,0 +1,76 @@
+.current-balance {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cb-amount {
+    margin: -5px 0px;
+    font-weight: 600;
+
+}
+
+.cb-text {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 20px;
+
+}
+
+.income-expense {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.income-expense h3 {
+    text-align: center;
+}
+
+.income-box {
+    margin: 0px 45px;
+
+}
+.income-box h2{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1em;
+}
+.income-box h3{
+    color: #b6960a;
+    font-size: 1.3em;
+    font-weight: 500;
+
+}
+.expense-box {
+    margin: 0px 45px;
+}
+.expense-box h2{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1em;
+}
+.expense-box h3{
+    color: #2da3ad;
+    font-size: 1.3em;
+    font-weight: 500;
+
+}
+.income-expense-box {
+    width: fit-content;
+    margin: 20px auto;
+    padding: 18px 0px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 2px 0px grey;
+
+}
+hr{
+    height: 60px;
+}
+
+
+.insufficient-balance{
+    color: red;
+    display: none;
+}
